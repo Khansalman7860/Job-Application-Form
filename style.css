@@ -1,0 +1,77 @@
+ * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        background-color: #d9c9c9;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+    }
+
+    .container {
+        margin-top: 25px;
+        height: 540px;
+        width: 500px;
+        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: 3px 2px 2px black;
+    }
+
+    .title {
+        font-style: unset;
+        margin: 20px 200px 20px 20px;
+    }
+
+    .title span {
+        font-size: medium;
+        color: darkblue;
+    }
+
+    .form_control {
+        display: grid;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 50% 50%;
+        grid-gap: 10px 0px;
+        margin: 10px 0px 0px 30px;
+
+    }
+
+    .addressInput {
+        display: grid;
+        margin: 10px 30px 10px 30px;
+
+    }
+
+    .text_Area {
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    .input {
+        height: 30px;
+        width: 200px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .upload_cv {
+        height: 30px;
+        width: 200px;
+        padding: 2px;
+        border-radius: 5px;
+        border: 2px solid grey;
+    }
+    .btn{
+        padding: 5px;
+        margin: 10px 0px 0px 350px;
+        background-color: red;
+        border-radius: 10px;
+        height: 30px;
+        width: 110px;
+        font-weight: 600;
+        color: #fff;
+    }
